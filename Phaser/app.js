@@ -7,8 +7,8 @@ function preload(){}
 	game.load.image('platform', 'platform/sky.png');
 	game.load.image('firstaid', 'assets/firstaid.png');
 
-	game.load spritesheet('dude', 'assets/dude.png',32,48);
-	game.load spritesheet('baddie', 'assets/baddie.png',32,48);
+	game.load.spritesheet('dude', 'assets/dude.png',32,48);
+	game.load.spritesheet('baddie', 'assets/baddie.png',32,32);
 
 function create(){
 
