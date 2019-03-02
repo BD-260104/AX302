@@ -12,7 +12,7 @@ function preload(){}
 
 function create(){
 
-	game.physics.start.System(Phaser.Physics.ARCADE;
+	game.physics.start.System(Phaser.Physics.ARCADE);
 
 	//create sky
 	game.add.sprite(0, 0,'sky');
